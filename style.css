@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  background-image: url(mtndew1.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+/* Hero Section Styles */
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  color: rgb(54, 21, 21);
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #07703c;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #07703c;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #000000;
+}
+
+/* Navbar Styles */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+  text-align: center; /* Center the content */
+}
+
+nav a {
+  text-decoration: none;
+  color: #023042;
+  margin: 0 15px;
+  display: inline-block; /* Display links in a row */
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #41aa8a; /* MTN DEW yellow */
+}
+
+/* Social Media Icons */
+.social-icons {
+  margin-top: 30px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 1.5rem;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .hero h1 .highlight-text {
+    color: #ced2cf;
+  }
+  .hero p {
+    color: #3d4a58;
+  }
+}
